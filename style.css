@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#darkbtn {
+    background-color: #333;
+    color: white;
+}
+
+#lightbtn {
+    background-color: #f0f0f0;
+    color: black;
+}
